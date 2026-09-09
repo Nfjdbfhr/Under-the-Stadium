@@ -201,6 +201,13 @@ public class NewMonoBehaviourScript : MonoBehaviour
     /// </summary>
     void LogMatchResult(Blade winner, Blade loser, double winnerChance, float roll)
     {
+        if (winnerChance <= 25)
+        {
+            Debug.LogWarning("Upset !!!");
+            Debug.LogWarning("Upset !!!");
+            Debug.LogWarning("Upset !!!");
+        }
+
         Debug.Log(
             $"{winner.Name} defeated {loser.Name} " +
             $"({winnerChance:F1}% chance | Roll: {roll:F1})"
@@ -214,4 +221,13 @@ public class NewMonoBehaviourScript : MonoBehaviour
     {
         Debug.Log($"🏆 WINNER: {winner.Name}");
     }
+
+
+    //////////////////////////////////////////////////////////////////////////////////////////////////////
+    //
+    //                                 Favorites/Underdogs
+    //
+    //////////////////////////////////////////////////////////////////////////////////////////////////////
+    
+    
 }
