@@ -245,66 +245,98 @@ MonoBehaviour:
     Attack: 180
     Defense: 50
     Stamina: 75
+    Tags:
+      Tags: 
   - Name: one
     Attack: 60
     Defense: 90
     Stamina: 140
+    Tags:
+      Tags: 00000000
   - Name: two
     Attack: 50
     Defense: 50
     Stamina: 50
+    Tags:
+      Tags: 03000000
   - Name: three
     Attack: 125
     Defense: 143
     Stamina: 182
+    Tags:
+      Tags: 
   - Name: four
     Attack: 182
     Defense: 176
     Stamina: 192
+    Tags:
+      Tags: 
   - Name: five
     Attack: 120
     Defense: 80
     Stamina: 75
+    Tags:
+      Tags: 02000000
   - Name: six
     Attack: 130
     Defense: 120
     Stamina: 45
+    Tags:
+      Tags: 
   - Name: seven
     Attack: 92
     Defense: 85
     Stamina: 105
+    Tags:
+      Tags: 
   - Name: eight
     Attack: 10
     Defense: 195
     Stamina: 200
+    Tags:
+      Tags: 
   - Name: nine
     Attack: 125
     Defense: 125
     Stamina: 100
+    Tags:
+      Tags: 
   - Name: ten
     Attack: 200
     Defense: 200
     Stamina: 200
+    Tags:
+      Tags: 01000000
   - Name: eleven
     Attack: 65
     Defense: 65
     Stamina: 175
+    Tags:
+      Tags: 
   - Name: twelve
     Attack: 195
     Defense: 195
     Stamina: 2
+    Tags:
+      Tags: 
   - Name: thirteen
     Attack: 85
     Defense: 85
     Stamina: 120
+    Tags:
+      Tags: 
   - Name: fourteen
     Attack: 40
     Defense: 80
     Stamina: 145
+    Tags:
+      Tags: 
   - Name: fifteen
     Attack: 150
     Defense: 100
     Stamina: 50
+    Tags:
+      Tags: 
   currentBracket:
     matches: []
     roundNum: 0
